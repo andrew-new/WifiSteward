@@ -206,46 +206,19 @@
 {
     NSLog(@"下载成功");
     
-    
-    /*
-    if( [self showMe] )
-    {
-        UIAlertView * alert =[ [UIAlertView alloc]initWithTitle:@"提示" message:[NSString stringWithFormat:@"你网速打败了全国%d%%用户,是否进行网速优化，体验飞一般的感觉？",(NSInteger)((_wendu.z)*100)] delegate:self cancelButtonTitle:@"现在体验" otherButtonTitles:@"不了", nil];
-        
-        alert.tag = ALERT_TAG_WANT_CLEAN;
-        
-        [alert show];
-    }
-    else
-    {
-        UIAlertView * alert =[ [UIAlertView alloc]initWithTitle:@"提示" message:[NSString stringWithFormat:@"你网速打败了全国%d%%用户",(NSInteger)((_wendu.z)*100)] delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
-        
-        [alert show];
-    }
-     */
-    
     /* do something with the data here */
 }
 
 
 -(void)layoutADV
 {
-    /*
-    AppDelegate * appDel = (AppDelegate*)[[UIApplication sharedApplication]delegate];
-    
-    if( ![appDel showAdv] )
-    {
-        return;
-    }
-     */
-    
     //中间的 ADV
     CGPoint pt ;
     
     pt = CGPointMake(0, 3);
     GADBannerView * _bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeFullBanner origin:pt];
     
-    _bannerView.adUnitID = @"ca-app-pub-3058205099381432/7929977146";//调用你的id
+    _bannerView.adUnitID = @"ca-app-pub-3058205099381432/6931458347";//调用你的id
     _bannerView.rootViewController = self;
     [_bannerView loadRequest:[GADRequest request]];
     

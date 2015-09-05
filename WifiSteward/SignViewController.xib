@@ -85,7 +85,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMd-fg-MwN">
-                    <rect key="frame" x="0.0" y="490" width="600" height="60"/>
+                    <rect key="frame" x="0.0" y="540" width="600" height="60"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="mDf-0M-Oh8"/>
@@ -118,7 +118,7 @@
                 <constraint firstItem="xSe-8r-gWZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HuP-bi-hmg"/>
                 <constraint firstItem="GMd-fg-MwN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JTs-0d-UOe"/>
                 <constraint firstAttribute="trailing" secondItem="72o-nF-gU7" secondAttribute="trailing" constant="10" id="LbS-v6-int"/>
-                <constraint firstAttribute="bottom" secondItem="GMd-fg-MwN" secondAttribute="bottom" constant="50" id="NeC-A4-54Y"/>
+                <constraint firstAttribute="bottom" secondItem="GMd-fg-MwN" secondAttribute="bottom" id="NeC-A4-54Y"/>
                 <constraint firstItem="72o-nF-gU7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="QJH-j4-emE"/>
                 <constraint firstItem="awK-OG-mAg" firstAttribute="top" secondItem="xSe-8r-gWZ" secondAttribute="bottom" constant="20" id="Qf4-GO-6B5"/>
                 <constraint firstItem="ifA-Gk-gKn" firstAttribute="top" secondItem="4lZ-5r-mIM" secondAttribute="bottom" constant="25" id="bla-cj-d2d"/>

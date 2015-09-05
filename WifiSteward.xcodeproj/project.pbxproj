@@ -137,6 +137,10 @@
 		485DED121B9735C3008415B1 /* NetSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DED0F1B9735C3008415B1 /* NetSpeedViewController.m */; };
 		485DED161B973614008415B1 /* SpeedResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485DED131B973614008415B1 /* SpeedResultViewController.xib */; };
 		485DED171B973614008415B1 /* SpeedResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DED141B973614008415B1 /* SpeedResultViewController.m */; };
+		488E53DD1B99C6C900ACC8B6 /* wangsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53D91B99C6C900ACC8B6 /* wangsu.png */; };
+		488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DA1B99C6C900ACC8B6 /* liuliang.png */; };
+		488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DB1B99C6C900ACC8B6 /* huafei.png */; };
+		488E53E01B99C6C900ACC8B6 /* dianchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DC1B99C6C900ACC8B6 /* dianchi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,7 +171,6 @@
 		485DEB951B96DD7F008415B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		485DEB961B96DD7F008415B1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		485DEB9A1B96E14F008415B1 /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
-		485DEB9C1B96E327008415B1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		485DEB9D1B96E693008415B1 /* wifi_spy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi_spy.png; sourceTree = "<group>"; };
 		485DEB9E1B96E693008415B1 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
 		485DEBA11B96EC01008415B1 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
@@ -383,6 +386,10 @@
 		485DED131B973614008415B1 /* SpeedResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeedResultViewController.xib; sourceTree = "<group>"; };
 		485DED141B973614008415B1 /* SpeedResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedResultViewController.m; sourceTree = "<group>"; };
 		485DED151B973614008415B1 /* SpeedResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedResultViewController.h; sourceTree = "<group>"; };
+		488E53D91B99C6C900ACC8B6 /* wangsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wangsu.png; sourceTree = "<group>"; };
+		488E53DA1B99C6C900ACC8B6 /* liuliang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liuliang.png; sourceTree = "<group>"; };
+		488E53DB1B99C6C900ACC8B6 /* huafei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huafei.png; sourceTree = "<group>"; };
+		488E53DC1B99C6C900ACC8B6 /* dianchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dianchi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -533,7 +540,6 @@
 				485DEB941B96DD7F008415B1 /* MainViewController.h */,
 				485DEB951B96DD7F008415B1 /* MainViewController.m */,
 				485DEB961B96DD7F008415B1 /* MainViewController.xib */,
-				485DEB9C1B96E327008415B1 /* Header.h */,
 			);
 			path = WifiSteward;
 			sourceTree = "<group>";
@@ -568,6 +574,10 @@
 			isa = PBXGroup;
 			children = (
 				485DED0A1B973591008415B1 /* speed.png */,
+				488E53D91B99C6C900ACC8B6 /* wangsu.png */,
+				488E53DA1B99C6C900ACC8B6 /* liuliang.png */,
+				488E53DB1B99C6C900ACC8B6 /* huafei.png */,
+				488E53DC1B99C6C900ACC8B6 /* dianchi.png */,
 				485DED0B1B973591008415B1 /* signTip@2x.png */,
 				485DECFD1B9734AB008415B1 /* cleanStorage.png */,
 				485DECFE1B9734AB008415B1 /* cleanNet.png */,
@@ -1124,7 +1134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				485DECAF1B96F38F008415B1 /* UMSShareListController.xib in Resources */,
+				488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */,
 				485DED041B9734AB008415B1 /* cleanBattery.png in Resources */,
+				488E53E01B99C6C900ACC8B6 /* dianchi.png in Resources */,
 				485DECA81B96F38F008415B1 /* UMSCommentDetailController.xib in Resources */,
 				485DECAE1B96F38F008415B1 /* UMSnsAccountViewController.xib in Resources */,
 				485DECAD1B96F38F008415B1 /* UMSLoginViewController.xib in Resources */,
@@ -1135,6 +1147,7 @@
 				485DED021B9734AB008415B1 /* cleanNet.png in Resources */,
 				485DEC731B96F38F008415B1 /* baidumobadsdk.bundle in Resources */,
 				485DEC891B96F38F008415B1 /* README.txt in Resources */,
+				488E53DD1B99C6C900ACC8B6 /* wangsu.png in Resources */,
 				485DEB7F1B96DCAF008415B1 /* LaunchScreen.xib in Resources */,
 				485DEBA91B96F313008415B1 /* NetSpyViewController.xib in Resources */,
 				485DED031B9734AB008415B1 /* cleanIcon.png in Resources */,
@@ -1152,6 +1165,7 @@
 				485DECB21B96F38F008415B1 /* ios-social-sdk-shake.html in Resources */,
 				485DECAC1B96F38F008415B1 /* UMShareEditViewControlleriPad.xib in Resources */,
 				485DECAB1B96F38F008415B1 /* UMShareEditViewController.xib in Resources */,
+				488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */,
 				485DEBAB1B96F313008415B1 /* NetSpyTableViewCell.xib in Resources */,
 				485DECFB1B973395008415B1 /* CleanViewController.xib in Resources */,
 				485DEC901B96F38F008415B1 /* SVProgressHUD.bundle in Resources */,
@@ -1474,6 +1488,7 @@
 				485DEB901B96DCB0008415B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		485DEB911B96DCB0008415B1 /* Build configuration list for PBXNativeTarget "WifiStewardTests" */ = {
 			isa = XCConfigurationList;
@@ -1482,6 +1497,7 @@
 				485DEB931B96DCB0008415B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
