@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface SpeedResultViewController : UIViewController
+@interface SpeedResultViewController : BaseViewController
 
 @property(assign) CGFloat speed;
 @end

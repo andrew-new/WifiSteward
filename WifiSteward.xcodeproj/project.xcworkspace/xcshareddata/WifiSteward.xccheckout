@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>15BBFE30-25A2-4E17-9547-38D56C49D75E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WifiSteward</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>708BB75A8F93CB0820A39503271CDDE81EEAC906</key>
+		<string>https://github.com/Rollrock/WifiSteward.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WifiSteward.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>708BB75A8F93CB0820A39503271CDDE81EEAC906</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Rollrock/WifiSteward.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>708BB75A8F93CB0820A39503271CDDE81EEAC906</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>708BB75A8F93CB0820A39503271CDDE81EEAC906</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WifiSteward</string>
+		</dict>
+	</array>
+</dict>
+</plist>

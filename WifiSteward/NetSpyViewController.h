@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface NetSpyViewController : UIViewController
+@interface NetSpyViewController : BaseViewController
 
 @end

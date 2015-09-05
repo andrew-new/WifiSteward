@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface NetSpeedViewController : UIViewController
+@interface NetSpeedViewController : BaseViewController
 
 @end

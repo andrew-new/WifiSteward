@@ -36,6 +36,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    self.title = @"领取话费";
+    
     [self getSignInfo];
     
     if( [self dateSame:[NSDate date] date2:signInfo.lastDate] )
@@ -54,15 +56,15 @@
     //
     [self layoutADV];
     //
-    UIBarButtonItem * leftBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleDone target:self action:@selector(leftClicked)];
-    [self.navigationItem setLeftBarButtonItem:leftBtn];
     
 }
 
+/*
 -(void)leftClicked
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+ */
 
 
 - (NSString *)publisherId

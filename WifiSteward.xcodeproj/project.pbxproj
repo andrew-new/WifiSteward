@@ -141,6 +141,20 @@
 		488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DA1B99C6C900ACC8B6 /* liuliang.png */; };
 		488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DB1B99C6C900ACC8B6 /* huafei.png */; };
 		488E53E01B99C6C900ACC8B6 /* dianchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DC1B99C6C900ACC8B6 /* dianchi.png */; };
+		488E53E31B9A737600ACC8B6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E53E21B9A737600ACC8B6 /* BaseViewController.m */; };
+		488E53E51B9A74F200ACC8B6 /* NavBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53E41B9A74F200ACC8B6 /* NavBack.png */; };
+		488E53E91B9A787500ACC8B6 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E53E71B9A787500ACC8B6 /* NewsViewController.m */; };
+		488E53EA1B9A787500ACC8B6 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488E53E81B9A787500ACC8B6 /* NewsViewController.xib */; };
+		488E53EC1B9A792000ACC8B6 /* MainRightNav.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53EB1B9A792000ACC8B6 /* MainRightNav.png */; };
+		488E53EE1B9A7B0700ACC8B6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53ED1B9A7B0700ACC8B6 /* back.png */; };
+		488E53F11B9A7BEC00ACC8B6 /* LaughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E53EF1B9A7BEC00ACC8B6 /* LaughViewController.m */; };
+		488E53F31B9A7C5500ACC8B6 /* laugh.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F21B9A7C5500ACC8B6 /* laugh.png */; };
+		488E53FB1B9A8D9F00ACC8B6 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F51B9A8D9F00ACC8B6 /* 1024.png */; };
+		488E53FC1B9A8D9F00ACC8B6 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F61B9A8D9F00ACC8B6 /* 120.png */; };
+		488E53FD1B9A8D9F00ACC8B6 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F71B9A8D9F00ACC8B6 /* 180.png */; };
+		488E53FE1B9A8D9F00ACC8B6 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F81B9A8D9F00ACC8B6 /* 58.png */; };
+		488E53FF1B9A8D9F00ACC8B6 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F91B9A8D9F00ACC8B6 /* 80.png */; };
+		488E54001B9A8D9F00ACC8B6 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53FA1B9A8D9F00ACC8B6 /* 87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -390,6 +404,23 @@
 		488E53DA1B99C6C900ACC8B6 /* liuliang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liuliang.png; sourceTree = "<group>"; };
 		488E53DB1B99C6C900ACC8B6 /* huafei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huafei.png; sourceTree = "<group>"; };
 		488E53DC1B99C6C900ACC8B6 /* dianchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dianchi.png; sourceTree = "<group>"; };
+		488E53E11B9A737600ACC8B6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		488E53E21B9A737600ACC8B6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		488E53E41B9A74F200ACC8B6 /* NavBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBack.png; sourceTree = "<group>"; };
+		488E53E61B9A787500ACC8B6 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		488E53E71B9A787500ACC8B6 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		488E53E81B9A787500ACC8B6 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		488E53EB1B9A792000ACC8B6 /* MainRightNav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainRightNav.png; sourceTree = "<group>"; };
+		488E53ED1B9A7B0700ACC8B6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		488E53EF1B9A7BEC00ACC8B6 /* LaughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaughViewController.m; sourceTree = "<group>"; };
+		488E53F01B9A7BEC00ACC8B6 /* LaughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaughViewController.h; sourceTree = "<group>"; };
+		488E53F21B9A7C5500ACC8B6 /* laugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laugh.png; sourceTree = "<group>"; };
+		488E53F51B9A8D9F00ACC8B6 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		488E53F61B9A8D9F00ACC8B6 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		488E53F71B9A8D9F00ACC8B6 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		488E53F81B9A8D9F00ACC8B6 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		488E53F91B9A8D9F00ACC8B6 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		488E53FA1B9A8D9F00ACC8B6 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -501,6 +532,8 @@
 		485DEB6D1B96DCAF008415B1 /* WifiSteward */ = {
 			isa = PBXGroup;
 			children = (
+				488E53EF1B9A7BEC00ACC8B6 /* LaughViewController.m */,
+				488E53F01B9A7BEC00ACC8B6 /* LaughViewController.h */,
 				485DED131B973614008415B1 /* SpeedResultViewController.xib */,
 				485DED141B973614008415B1 /* SpeedResultViewController.m */,
 				485DED151B973614008415B1 /* SpeedResultViewController.h */,
@@ -540,6 +573,11 @@
 				485DEB941B96DD7F008415B1 /* MainViewController.h */,
 				485DEB951B96DD7F008415B1 /* MainViewController.m */,
 				485DEB961B96DD7F008415B1 /* MainViewController.xib */,
+				488E53E11B9A737600ACC8B6 /* BaseViewController.h */,
+				488E53E21B9A737600ACC8B6 /* BaseViewController.m */,
+				488E53E61B9A787500ACC8B6 /* NewsViewController.h */,
+				488E53E71B9A787500ACC8B6 /* NewsViewController.m */,
+				488E53E81B9A787500ACC8B6 /* NewsViewController.xib */,
 			);
 			path = WifiSteward;
 			sourceTree = "<group>";
@@ -573,6 +611,11 @@
 		485DEB991B96E14F008415B1 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				488E53F41B9A8D9F00ACC8B6 /* icon */,
+				488E53F21B9A7C5500ACC8B6 /* laugh.png */,
+				488E53ED1B9A7B0700ACC8B6 /* back.png */,
+				488E53EB1B9A792000ACC8B6 /* MainRightNav.png */,
+				488E53E41B9A74F200ACC8B6 /* NavBack.png */,
 				485DED0A1B973591008415B1 /* speed.png */,
 				488E53D91B99C6C900ACC8B6 /* wangsu.png */,
 				488E53DA1B99C6C900ACC8B6 /* liuliang.png */,
@@ -1051,6 +1094,19 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		488E53F41B9A8D9F00ACC8B6 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				488E53F51B9A8D9F00ACC8B6 /* 1024.png */,
+				488E53F61B9A8D9F00ACC8B6 /* 120.png */,
+				488E53F71B9A8D9F00ACC8B6 /* 180.png */,
+				488E53F81B9A8D9F00ACC8B6 /* 58.png */,
+				488E53F91B9A8D9F00ACC8B6 /* 80.png */,
+				488E53FA1B9A8D9F00ACC8B6 /* 87.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1133,6 +1189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488E54001B9A8D9F00ACC8B6 /* 87.png in Resources */,
 				485DECAF1B96F38F008415B1 /* UMSShareListController.xib in Resources */,
 				488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */,
 				485DED041B9734AB008415B1 /* cleanBattery.png in Resources */,
@@ -1143,6 +1200,9 @@
 				485DEB7A1B96DCAF008415B1 /* Main.storyboard in Resources */,
 				485DECA91B96F38F008415B1 /* UMSCommentInputController.xib in Resources */,
 				485DED081B97350C008415B1 /* SignViewController.xib in Resources */,
+				488E53EA1B9A787500ACC8B6 /* NewsViewController.xib in Resources */,
+				488E53EE1B9A7B0700ACC8B6 /* back.png in Resources */,
+				488E53FF1B9A8D9F00ACC8B6 /* 80.png in Resources */,
 				485DEB9B1B96E14F008415B1 /* wifi.png in Resources */,
 				485DED021B9734AB008415B1 /* cleanNet.png in Resources */,
 				485DEC731B96F38F008415B1 /* baidumobadsdk.bundle in Resources */,
@@ -1154,24 +1214,31 @@
 				485DECAA1B96F38F008415B1 /* UMSCommentInputControlleriPad.xib in Resources */,
 				485DECB01B96F38F008415B1 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				485DEB7C1B96DCAF008415B1 /* Images.xcassets in Resources */,
+				488E53FD1B9A8D9F00ACC8B6 /* 180.png in Resources */,
 				485DED011B9734AB008415B1 /* cleanStorage.png in Resources */,
+				488E53EC1B9A792000ACC8B6 /* MainRightNav.png in Resources */,
+				488E53F31B9A7C5500ACC8B6 /* laugh.png in Resources */,
 				485DEC741B96F38F008415B1 /* baidumobadsdk.bundle in Resources */,
 				485DED0D1B973591008415B1 /* signTip@2x.png in Resources */,
 				485DEC921B96F38F008415B1 /* System Services in Resources */,
 				485DED111B9735C3008415B1 /* NetSpeedViewController.xib in Resources */,
+				488E53E51B9A74F200ACC8B6 /* NavBack.png in Resources */,
 				485DECA51B96F38F008415B1 /* UMSocialLocalizable.strings in Resources */,
 				485DED161B973614008415B1 /* SpeedResultViewController.xib in Resources */,
 				485DEBA21B96EC01008415B1 /* arrow@2x.png in Resources */,
 				485DECB21B96F38F008415B1 /* ios-social-sdk-shake.html in Resources */,
+				488E53FB1B9A8D9F00ACC8B6 /* 1024.png in Resources */,
 				485DECAC1B96F38F008415B1 /* UMShareEditViewControlleriPad.xib in Resources */,
 				485DECAB1B96F38F008415B1 /* UMShareEditViewController.xib in Resources */,
 				488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */,
+				488E53FE1B9A8D9F00ACC8B6 /* 58.png in Resources */,
 				485DEBAB1B96F313008415B1 /* NetSpyTableViewCell.xib in Resources */,
 				485DECFB1B973395008415B1 /* CleanViewController.xib in Resources */,
 				485DEC901B96F38F008415B1 /* SVProgressHUD.bundle in Resources */,
 				485DED0C1B973591008415B1 /* speed.png in Resources */,
 				485DEB981B96DD7F008415B1 /* MainViewController.xib in Resources */,
 				485DEBA01B96E693008415B1 /* health.png in Resources */,
+				488E53FC1B9A8D9F00ACC8B6 /* 120.png in Resources */,
 				485DEC8A1B96F38F008415B1 /* README.txt in Resources */,
 				485DEB9F1B96E693008415B1 /* wifi_spy.png in Resources */,
 			);
@@ -1196,6 +1263,8 @@
 				485DEB771B96DCAF008415B1 /* ViewController.m in Sources */,
 				485DEC931B96F38F008415B1 /* SystemServices.m in Sources */,
 				485DEB741B96DCAF008415B1 /* AppDelegate.m in Sources */,
+				488E53E31B9A737600ACC8B6 /* BaseViewController.m in Sources */,
+				488E53F11B9A7BEC00ACC8B6 /* LaughViewController.m in Sources */,
 				485DEC9B1B96F38F008415B1 /* SSHardwareInfo.m in Sources */,
 				485DECF71B972F2F008415B1 /* UIScrollView+UITouch.m in Sources */,
 				485DEC961B96F38F008415B1 /* SSAccessoryInfo.m in Sources */,
@@ -1223,6 +1292,7 @@
 				485DECA31B96F38F008415B1 /* THProgressView.m in Sources */,
 				485DEC9C1B96F38F008415B1 /* SSJailbreakCheck.m in Sources */,
 				485DEC911B96F38F008415B1 /* SVProgressHUD.m in Sources */,
+				488E53E91B9A787500ACC8B6 /* NewsViewController.m in Sources */,
 				485DEC9A1B96F38F008415B1 /* SSDiskInfo.m in Sources */,
 				485DEC9E1B96F38F008415B1 /* SSMemoryInfo.m in Sources */,
 				485DEB711B96DCAF008415B1 /* main.m in Sources */,

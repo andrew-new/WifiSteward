@@ -62,9 +62,10 @@
     [_imgBgView addSubview:speedLab3];
 
 //
+    /*
     UIBarButtonItem * leftBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleDone target:self action:@selector(leftClicked)];
     [self.navigationItem setLeftBarButtonItem:leftBtn];
-    
+    */
 }
 
 -(void)leftClicked

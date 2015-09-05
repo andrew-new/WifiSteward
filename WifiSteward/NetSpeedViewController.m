@@ -43,21 +43,24 @@
     
     self.title = @"网速测试";
     
+    /*
     {
         UIColor *color = [UIColor whiteColor];
         UIFont * font = [UIFont systemFontOfSize:20];
         NSDictionary * dict = [NSDictionary dictionaryWithObjects:@[color,font] forKeys:@[NSForegroundColorAttributeName ,NSFontAttributeName]];
         self.navigationController.navigationBar.titleTextAttributes = dict;
     }
+     */
     
     _speedBgView.layer.cornerRadius = _speedBgView.frame.size.width/2.0;
     _speedBgView.layer.masksToBounds = YES;
     
     [self layoutADV];
     
+    /*
     UIBarButtonItem * leftBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleDone target:self action:@selector(leftClicked)];
     [self.navigationItem setLeftBarButtonItem:leftBtn];
-    
+    */
 }
 
 -(void)leftClicked
@@ -198,7 +201,6 @@
         
         return;
     }
-    
     
 }
 

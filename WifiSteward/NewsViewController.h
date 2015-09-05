@@ -1,14 +1,14 @@
 //
-//  SignViewController.h
-//  NewiPhoneADV
+//  NewsViewController.h
+//  WifiSteward
 //
-//  Created by zhuang chaoxiao on 15/8/13.
+//  Created by zhuang chaoxiao on 15/9/5.
 //  Copyright (c) 2015年 zhuang chaoxiao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
 
-@interface SignViewController : BaseViewController
+@interface NewsViewController : BaseViewController
 
 @end

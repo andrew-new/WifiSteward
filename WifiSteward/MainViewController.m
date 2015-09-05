@@ -16,6 +16,8 @@
 #import "NetSpeedViewController.h"
 #import "CommInfo.h"
 #import "CommData.h"
+#import "NewsViewController.h"
+#import "LaughViewController.h"
 
 #define SystemSharedServices [SystemServices sharedServices]
 
@@ -87,6 +89,44 @@
     //
     [self notiBattery];
     [self drawBattery];
+    
+    //
+    [self initNavItem];
+}
+
+
+-(void)initNavItem
+{
+    {
+        UIButton * leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 25, 25)];
+        [leftBtn addTarget:self action:@selector(leftClick) forControlEvents:UIControlEventTouchUpInside];
+        [leftBtn setBackgroundImage:[UIImage imageNamed:@"laugh"] forState:UIControlStateNormal];
+        UIBarButtonItem * leftItem = [[UIBarButtonItem alloc]initWithCustomView:leftBtn];
+        self.navigationItem.leftBarButtonItem = leftItem;
+    }
+    
+    {
+        UIButton * rightBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 25, 25)];
+        [rightBtn addTarget:self action:@selector(rightClick) forControlEvents:UIControlEventTouchUpInside];
+        [rightBtn setBackgroundImage:[UIImage imageNamed:@"MainRightNav"] forState:UIControlStateNormal];
+        UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]initWithCustomView:rightBtn];
+        self.navigationItem.rightBarButtonItem = rightItem;
+    }
+}
+
+
+-(void)leftClick
+{
+    LaughViewController * vc = [[LaughViewController alloc]initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+-(void)rightClick
+{
+    NewsViewController * vc = [[NewsViewController alloc]initWithNibName:@"NewsViewController" bundle:nil];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 

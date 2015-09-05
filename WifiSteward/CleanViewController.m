@@ -42,13 +42,14 @@
  
     
     self.title = @"系统清理";
-    
+    /*
     {
         UIColor *color = [UIColor whiteColor];
         UIFont * font = [UIFont systemFontOfSize:20];
         NSDictionary * dict = [NSDictionary dictionaryWithObjects:@[color,font] forKeys:@[NSForegroundColorAttributeName ,NSFontAttributeName]];
         self.navigationController.navigationBar.titleTextAttributes = dict;
     }
+     */
     
     cleanCount = 999;
     
@@ -60,10 +61,10 @@
     [self preLoadAdv];
 
     //
-    
+    /*
     UIBarButtonItem * leftBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleDone target:self action:@selector(leftClicked)];
     [self.navigationItem setLeftBarButtonItem:leftBtn];
-    
+    */
 }
 
 -(void)leftClicked

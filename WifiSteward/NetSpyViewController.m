@@ -262,6 +262,7 @@ int ipIndex = 100;
     
     self.title = @"网络监控";
     
+    /*
     {
         UIColor *color = [UIColor whiteColor];
         UIFont * font = [UIFont systemFontOfSize:20];
@@ -272,7 +273,9 @@ int ipIndex = 100;
     //
     UIBarButtonItem * leftBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleDone target:self action:@selector(leftClicked)];
     [self.navigationItem setLeftBarButtonItem:leftBtn];
-
+*/
+    
+    
     //
     [self layoutAdv];
     
