@@ -155,6 +155,10 @@
 		488E53FE1B9A8D9F00ACC8B6 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F81B9A8D9F00ACC8B6 /* 58.png */; };
 		488E53FF1B9A8D9F00ACC8B6 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53F91B9A8D9F00ACC8B6 /* 80.png */; };
 		488E54001B9A8D9F00ACC8B6 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53FA1B9A8D9F00ACC8B6 /* 87.png */; };
+		48E50B301B9AABF100F17A0A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2C1B9AABF100F17A0A /* 4.png */; };
+		48E50B311B9AABF100F17A0A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2D1B9AABF100F17A0A /* 5.png */; };
+		48E50B321B9AABF100F17A0A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2E1B9AABF100F17A0A /* 6.png */; };
+		48E50B331B9AABF100F17A0A /* 6p.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2F1B9AABF100F17A0A /* 6p.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -421,6 +425,10 @@
 		488E53F81B9A8D9F00ACC8B6 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
 		488E53F91B9A8D9F00ACC8B6 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		488E53FA1B9A8D9F00ACC8B6 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		48E50B2C1B9AABF100F17A0A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		48E50B2D1B9AABF100F17A0A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		48E50B2E1B9AABF100F17A0A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		48E50B2F1B9AABF100F17A0A /* 6p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6p.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -611,6 +619,7 @@
 		485DEB991B96E14F008415B1 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				48E50B2B1B9AABF100F17A0A /* launch */,
 				488E53F41B9A8D9F00ACC8B6 /* icon */,
 				488E53F21B9A7C5500ACC8B6 /* laugh.png */,
 				488E53ED1B9A7B0700ACC8B6 /* back.png */,
@@ -1107,6 +1116,17 @@
 			path = icon;
 			sourceTree = "<group>";
 		};
+		48E50B2B1B9AABF100F17A0A /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				48E50B2C1B9AABF100F17A0A /* 4.png */,
+				48E50B2D1B9AABF100F17A0A /* 5.png */,
+				48E50B2E1B9AABF100F17A0A /* 6.png */,
+				48E50B2F1B9AABF100F17A0A /* 6p.png */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1196,6 +1216,7 @@
 				488E53E01B99C6C900ACC8B6 /* dianchi.png in Resources */,
 				485DECA81B96F38F008415B1 /* UMSCommentDetailController.xib in Resources */,
 				485DECAE1B96F38F008415B1 /* UMSnsAccountViewController.xib in Resources */,
+				48E50B331B9AABF100F17A0A /* 6p.png in Resources */,
 				485DECAD1B96F38F008415B1 /* UMSLoginViewController.xib in Resources */,
 				485DEB7A1B96DCAF008415B1 /* Main.storyboard in Resources */,
 				485DECA91B96F38F008415B1 /* UMSCommentInputController.xib in Resources */,
@@ -1222,6 +1243,7 @@
 				485DED0D1B973591008415B1 /* signTip@2x.png in Resources */,
 				485DEC921B96F38F008415B1 /* System Services in Resources */,
 				485DED111B9735C3008415B1 /* NetSpeedViewController.xib in Resources */,
+				48E50B311B9AABF100F17A0A /* 5.png in Resources */,
 				488E53E51B9A74F200ACC8B6 /* NavBack.png in Resources */,
 				485DECA51B96F38F008415B1 /* UMSocialLocalizable.strings in Resources */,
 				485DED161B973614008415B1 /* SpeedResultViewController.xib in Resources */,
@@ -1232,6 +1254,7 @@
 				485DECAB1B96F38F008415B1 /* UMShareEditViewController.xib in Resources */,
 				488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */,
 				488E53FE1B9A8D9F00ACC8B6 /* 58.png in Resources */,
+				48E50B321B9AABF100F17A0A /* 6.png in Resources */,
 				485DEBAB1B96F313008415B1 /* NetSpyTableViewCell.xib in Resources */,
 				485DECFB1B973395008415B1 /* CleanViewController.xib in Resources */,
 				485DEC901B96F38F008415B1 /* SVProgressHUD.bundle in Resources */,
@@ -1240,6 +1263,7 @@
 				485DEBA01B96E693008415B1 /* health.png in Resources */,
 				488E53FC1B9A8D9F00ACC8B6 /* 120.png in Resources */,
 				485DEC8A1B96F38F008415B1 /* README.txt in Resources */,
+				48E50B301B9AABF100F17A0A /* 4.png in Resources */,
 				485DEB9F1B96E693008415B1 /* wifi_spy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1423,7 +1447,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: chaoxiao zhuang (398SEH57CU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: chaoxiao zhuang (398SEH57CU)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1447,6 +1472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1478,6 +1504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
