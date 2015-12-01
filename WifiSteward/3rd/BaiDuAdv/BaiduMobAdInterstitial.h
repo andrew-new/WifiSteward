@@ -9,18 +9,15 @@
 #import "BaiduMobAdInterstitialDelegate.h"
 
 /*
- * 1 插屏广告：游戏暂停、过关、失败等场景中使用 BaiduMobAdViewTypeInterstitialGame
- * 2 插屏广告：阅读章节切换等场景中使用 BaiduMobAdViewTypeInterstitialReader
- * 3 插屏广告：开机启动场景中使用 BaiduMobAdViewTypeInterstitialLaunch
- * 4 插屏广告：网络刷新场景中使用 BaiduMobAdViewTypeInterstitialRefresh
  * 5 插屏广告：插屏广告：其他场景中使用 BaiduMobAdViewTypeInterstitialOther
+ * 7 插屏广告：视频图片前贴片 BaiduMobAdViewTypeInterstitialBeforeVideo
+ * 8 插屏广告：视频暂停贴片 BaiduMobAdViewTypeInterstitialPauseVideo
  */
 typedef enum _BaiduMobAdInterstitialType {
-    BaiduMobAdViewTypeInterstitialGame = 1,
-    BaiduMobAdViewTypeInterstitialReader = 2,
-    BaiduMobAdViewTypeInterstitialLaunch = 3,
-    BaiduMobAdViewTypeInterstitialRefresh = 4,
-    BaiduMobAdViewTypeInterstitialOther = 5
+    BaiduMobAdViewTypeInterstitialOther = 5,
+    BaiduMobAdViewTypeInterstitialBeforeVideo = 7,
+    BaiduMobAdViewTypeInterstitialPauseVideo = 8
+
 } BaiduMobAdInterstitialType;
 
 @interface BaiduMobAdInterstitial : NSObject
@@ -43,7 +40,7 @@ typedef enum _BaiduMobAdInterstitialType {
 @property (nonatomic) BOOL isReady;
 
 /**
- *  设置/获取广告位id
+ *  设置/获取代码位id
  */
 @property (nonatomic,copy) NSString* AdUnitTag;
 
@@ -53,7 +50,7 @@ typedef enum _BaiduMobAdInterstitialType {
 @property (nonatomic, readonly) NSString* Version;
 
 /**
- *  应用启动时展示开屏广告
+ *  加载并显示插屏广告.会卡住约两秒钟影响用户体验,不建议使用.
  */
 - (void)loadAndDisplayUsingKeyWindow:(UIWindow *)keyWindow;
 
@@ -66,5 +63,16 @@ typedef enum _BaiduMobAdInterstitialType {
  *  展示插屏广告
  */
 - (void)presentFromRootViewController:(UIViewController *)rootViewController;
+
+/**
+ * 加载自定义大小的插屏,必须大于100*150
+ */
+- (void)loadUsingSize:(CGRect)rect;
+
+/**
+ * 展示自定义大小的插屏
+ */
+- (void)presentFromView:(UIView *)view;
+
 
 @end

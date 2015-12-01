@@ -69,16 +69,9 @@
 
 - (NSString *)publisherId
 {
-    return @"fece40ae";
+    return  BAIDU_APP_ID;
 }
 
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"fece40ae";
-}
 
 ///这里选用百度广告，因为这个页面时间很少 减少请求时间
 -(void)layoutADV
@@ -92,8 +85,9 @@
     }
      */
     
-    //顶部的 ADV
     BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+    //把在mssp.baidu.com上创建后获得的广告位id写到这里
+    _baiduView.AdUnitTag = BAIDU_BANNER_ID;
     _baiduView.AdType = BaiduMobAdViewTypeBanner;
     _baiduView.frame = CGRectMake(0, 0, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
     _baiduView.delegate = self;
@@ -161,7 +155,30 @@
 
 - (IBAction)ReChargeClicked
 {
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"您的余额不足，充值最少需要100元" delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
-    [alert show];
+    if( signInfo.score < 50 )
+    {
+        UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"您的余额不足，充值最少需要50元" delegate:self cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    else
+    {
+        UIAlertController * c = [UIAlertController alertControllerWithTitle:@"提示" message:@"提款前请先给与5分好评，否则无法体现哦！！！" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction * y = [UIAlertAction actionWithTitle:@"现在就去" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kAppStoreAddress]];
+            
+        }];
+                             
+        UIAlertAction * n = [UIAlertAction actionWithTitle:@"不了，话费我不要了" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+        
+        [c addAction:y];
+        [c addAction:n];
+        
+        [self presentViewController:c animated:YES completion:nil];
+    }
+    
 }
 @end

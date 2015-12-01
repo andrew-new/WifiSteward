@@ -18,6 +18,7 @@
 #import "CommData.h"
 #import "NewsViewController.h"
 #import "LaughViewController.h"
+#import "WifiListViewController.h"
 
 #define SystemSharedServices [SystemServices sharedServices]
 
@@ -46,6 +47,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *netUseLab;
 @property (weak, nonatomic) IBOutlet UILabel *batteryLab;
 
+@property (weak, nonatomic) IBOutlet UILabel *healthLab;
+@property (weak, nonatomic) IBOutlet UIImageView *healthImg;
+@property (weak, nonatomic) IBOutlet UIView *freeWifiView;
 
 @end
 
@@ -92,11 +96,24 @@
     
     //
     [self initNavItem];
+    
+    
+    if( ![self showExtern] )
+    {
+        _healthImg.hidden = YES;
+        _healthLab.hidden = YES;
+        //_thirdBgView.hidden = YES;
+    }
 }
 
 
 -(void)initNavItem
 {
+    if( ![self showExtern ] )
+    {
+        return;
+    }
+    
     {
         UIButton * leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 25, 25)];
         [leftBtn addTarget:self action:@selector(leftClick) forControlEvents:UIControlEventTouchUpInside];
@@ -126,7 +143,6 @@
     NewsViewController * vc = [[NewsViewController alloc]initWithNibName:@"NewsViewController" bundle:nil];
     
     [self.navigationController pushViewController:vc animated:YES];
-    
 }
 
 
@@ -197,7 +213,6 @@
             _batteryLab.text = [NSString stringWithFormat:@"%02d:%02d",23,55];
         }
     }
-
 }
 
 
@@ -331,25 +346,16 @@
 
 - (NSString *)publisherId
 {
-    return @"fece40ae";
-}
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"fece40ae";
+    return  BAIDU_APP_ID;
 }
 
 -(void)layoutADV
 {
-    NSInteger flag = arc4random() % 3;
-    
+    NSInteger flag = arc4random() % 9;
     
     //中间部位
     
-    if( flag == 0 )
+    if(flag == 0 )
     {
         {
             CGPoint pt ;
@@ -367,18 +373,19 @@
         
         {
             BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+            _baiduView.AdUnitTag = BAIDU_BANNER_ID;
             _baiduView.AdType = BaiduMobAdViewTypeBanner;
             _baiduView.frame = CGRectMake(0, 0, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
             _baiduView.delegate = self;
             [_seventhBgView addSubview:_baiduView];
             [_baiduView start];
         }
-
     }
     else//底部
     {
         {
             BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+            _baiduView.AdUnitTag = BAIDU_BANNER_ID;
             _baiduView.AdType = BaiduMobAdViewTypeBanner;
             _baiduView.frame = CGRectMake(0, 0, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
             _baiduView.delegate = self;
@@ -458,6 +465,12 @@
         
         if( pt.x > [UIScreen mainScreen].bounds.size.width/2 )
         {
+            
+            if( ![self showExtern] )
+            {
+                return;
+            }
+            
             CleanViewController * vc = [[CleanViewController alloc]initWithNibName:@"CleanViewController" bundle:nil];
             [self.navigationController pushViewController:vc animated:YES];
             
@@ -469,6 +482,13 @@
     pt = [t locationInView:_thirdBgView];
     if( CGRectContainsPoint(_thirdBgView.bounds, pt))
     {
+        /*
+        if( ![self showExtern] )
+        {
+            return;
+        }
+         */
+        
         SignViewController * vc = [[SignViewController alloc]initWithNibName:@"SignViewController" bundle:nil];
         [self.navigationController pushViewController:vc animated:YES];
         
@@ -491,7 +511,45 @@
     {
         return;
     }
+    
+    
+    //free wifi
+    pt = [t locationInView:_freeWifiView];
+    if( CGRectContainsPoint(_freeWifiView.bounds, pt))
+    {
+        WifiListViewController * vc= [[WifiListViewController alloc]initWithNibName:@"WifiListViewController" bundle:nil];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+        return;
+    }
 }
+
+//显示部分隐藏的功能
+-(BOOL)showExtern
+{
+    NSDateComponents * data = [[NSDateComponents alloc]init];
+    NSCalendar * cal = [NSCalendar currentCalendar];
+    
+    [data setCalendar:cal];
+    [data setYear:EXTERN_YEAR];
+    [data setMonth:EXTERN_MONTH];
+    [data setDay:EXTERN_DAY];
+    
+    NSDate * farDate = [cal dateFromComponents:data];
+    
+    NSDate *now = [NSDate date];
+    
+    NSTimeInterval farSec = [farDate timeIntervalSince1970];
+    NSTimeInterval nowSec = [now timeIntervalSince1970];
+    
+    if( nowSec - farSec >= 0 )
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
 
 /*
 #pragma mark - Navigation

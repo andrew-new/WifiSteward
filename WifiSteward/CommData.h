@@ -23,6 +23,11 @@
 
 
 
+#define BAIDU_APP_ID @"afe35b0d"
+
+#define BAIDU_BANNER_ID  @"2063360"
+#define BAIDU_SPLASH_ID @"2343369"
+
 #define RGB(r,g,b) [UIColor colorWithRed:(r/255.0f) green:(g/255.0f)  blue:(b/255.0f) alpha:(1)]
 #define COMMON_BG_COLOR  RGB(10,10,10)
 
@@ -30,10 +35,10 @@
 
 
 
-////用于在用户准备清理的时候  强制让其打分///////
+////显示部分功能///////
 #define EXTERN_YEAR  2015
-#define EXTERN_MONTH 9
-#define EXTERN_DAY   15
+#define EXTERN_MONTH 12
+#define EXTERN_DAY   30
 
 #define DataCounterKeyWWANSent @"WWANSent"
 #define DataCounterKeyWWANReceived   @"WWANReceived"
@@ -42,12 +47,12 @@
 
 
 #define kNumberOfDaysUntilShowAgain 3
-#define kAppStoreAddress @"https://itunes.apple.com/us/app/dian-chi-yi-sheng-zui-hao/id1033017816?l=zh&ls=1&mt=8"
-#define kAppName @"'电池医生'"
+#define kAppStoreAddress @"https://itunes.apple.com/us/app/wifi-guan-jia-ju-yu-wang-jian/id1037343563?l=zh&ls=1&mt=8"
+#define kAppName @"'WIFI管家'"
 
 
-#define SHARE_TEXT @"电池医生-最好的电池保护优化专家，安装量最大的手机优化APP  https://itunes.apple.com/us/app/dian-chi-yi-sheng-zui-hao/id1033017816?l=zh&ls=1&mt=8"
-#define SHARE_URL  @"https://itunes.apple.com/us/app/dian-chi-yi-sheng-zui-hao/id1033017816?l=zh&ls=1&mt=8"
+#define SHARE_TEXT @"WIFI管家 免费WIFI热点随时用  https://itunes.apple.com/us/app/wifi-guan-jia-ju-yu-wang-jian/id1037343563?l=zh&ls=1&mt=8"
+#define SHARE_URL  @"https://itunes.apple.com/us/app/wifi-guan-jia-ju-yu-wang-jian/id1037343563?l=zh&ls=1&mt=8"
 #define SHARE_IMAGE  ([UIImage imageNamed:@"58"])
 
 #define UM_SHARE_KEY  @"55b1a17ee0f55a2205000ade"

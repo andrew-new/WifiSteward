@@ -14,14 +14,9 @@
 
 @required
 /**
- *  应用在union.baidu.com上的APPID
+ *  应用的APPID
  */
 - (NSString *)publisherId;
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec;
 
 
 @optional

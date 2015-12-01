@@ -8,7 +8,7 @@
 
 #import "NewsViewController.h"
 #import "BaiduMobAdView.h"
-
+#import "CommData.h"
 
 @interface NewsViewController ()<BaiduMobAdViewDelegate,UIWebViewDelegate>
 
@@ -25,32 +25,10 @@
     
     self.title = @"手机使用技巧";
     
-    /*
-    {
-        UIColor *color = [UIColor whiteColor];
-        UIFont * font = [UIFont systemFontOfSize:20];
-        NSDictionary * dict = [NSDictionary dictionaryWithObjects:@[color,font] forKeys:@[NSForegroundColorAttributeName ,NSFontAttributeName]];
-        //self.navigationController.navigationBar.titleTextAttributes = dict;
-    }
-     */
-    
-    
     NSURL *   url = nil;
     
-    int rand = arc4random() / 5;
     
-    if(rand == 0 )
-    {
-        url = [NSURL URLWithString:@"http://toutiao.com/m3395676121/"];
-    }
-    else if( rand == 1 )
-    {
-        url = [NSURL URLWithString:@"http://toutiao.com/m3890669865/"];
-    }
-    else
-    {
-        url = [NSURL URLWithString:@"http://toutiao.com/m3261496576/"];
-    }
+    url = [NSURL URLWithString:@"http://toutiao.com/m3890669865/"];
     
     
     NSURLRequest *request =[NSURLRequest requestWithURL:url];
@@ -71,15 +49,7 @@
 
 - (NSString *)publisherId
 {
-    return @"fece40ae";
-}
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"fece40ae";
+    return  BAIDU_APP_ID;
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
@@ -89,13 +59,30 @@
 
 -(void)layoutAdv
 {
-    BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
-    _baiduView.AdType = BaiduMobAdViewTypeBanner;
-    _baiduView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height-60, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
-    _baiduView.delegate = self;
-    [self.view addSubview:_baiduView];
-    [_baiduView start];
+    //顶部
+    {
+        BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+        //把在mssp.baidu.com上创建后获得的广告位id写到这里
+        _baiduView.AdUnitTag = BAIDU_BANNER_ID;
+        _baiduView.AdType = BaiduMobAdViewTypeBanner;
+        _baiduView.frame = CGRectMake(0, 60, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
+        _baiduView.delegate = self;
+        [self.view addSubview:_baiduView];
+        [_baiduView start];
+    }
     
+    //底部
+    {
+        BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+        //把在mssp.baidu.com上创建后获得的广告位id写到这里
+        _baiduView.AdUnitTag = BAIDU_BANNER_ID;
+        _baiduView.AdType = BaiduMobAdViewTypeBanner;
+        _baiduView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height-60, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
+        _baiduView.delegate = self;
+        [self.view addSubview:_baiduView];
+        [_baiduView start];
+ 
+    }
 }
 
 -(void)backClicked

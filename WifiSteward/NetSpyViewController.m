@@ -11,7 +11,7 @@
 
 #import "SSNetworkInfo.h"
 #import "AppDelegate.h"
-
+#import "CommData.h"
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 #import  <CFNetwork/CFHost.h>
@@ -325,15 +325,7 @@ int ipIndex = 100;
 
 - (NSString *)publisherId
 {
-    return @"fece40ae";
-}
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"fece40ae";
+    return  BAIDU_APP_ID;
 }
 
 
@@ -349,14 +341,18 @@ int ipIndex = 100;
      */
     
     
-    //顶部的 ADV
-    BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
-    _baiduView.AdType = BaiduMobAdViewTypeBanner;
-    _baiduView.frame = CGRectMake(0, 60, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
-    //_baiduView.center = CGPointMake(_advBgView.center.x, _baiduView.center.y);
-    _baiduView.delegate = self;
-    [_advBgView addSubview:_baiduView];
-    [_baiduView start];
+    {
+         BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+        //把在mssp.baidu.com上创建后获得的广告位id写到这里
+        _baiduView.AdUnitTag = BAIDU_BANNER_ID;
+        _baiduView.AdType = BaiduMobAdViewTypeBanner;
+        _baiduView.frame = CGRectMake(0, 60, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
+        _baiduView.delegate = self;
+        [_advBgView addSubview:_baiduView];
+        [_baiduView start];
+    }
+    
+
 
 }
 

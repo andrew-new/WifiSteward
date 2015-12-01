@@ -25,30 +25,6 @@
 		485DEBAB1B96F313008415B1 /* NetSpyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485DEBA61B96F313008415B1 /* NetSpyTableViewCell.xib */; };
 		485DEBAC1B96F313008415B1 /* NetSpyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBA71B96F313008415B1 /* NetSpyTableViewCell.m */; };
 		485DEBB01B96F34E008415B1 /* CommInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBAD1B96F34E008415B1 /* CommInfo.m */; };
-		485DEC731B96F38F008415B1 /* baidumobadsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 485DEBBA1B96F38E008415B1 /* baidumobadsdk.bundle */; };
-		485DEC741B96F38F008415B1 /* baidumobadsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 485DEBC51B96F38E008415B1 /* baidumobadsdk.bundle */; };
-		485DEC751B96F38F008415B1 /* libBaiduMobAdSdk64bit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 485DEBC91B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */; };
-		485DEC761B96F38F008415B1 /* libBaiduMobAdSdk64bit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 485DEBCA1B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */; };
-		485DEC771B96F38F008415B1 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBCC1B96F38E008415B1 /* mongoose.c */; };
-		485DEC781B96F38F008415B1 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBD01B96F38E008415B1 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC791B96F38F008415B1 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBD31B96F38E008415B1 /* CDataScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC7A1B96F38F008415B1 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBD61B96F38E008415B1 /* CFilteringJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC7B1B96F38F008415B1 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBD81B96F38E008415B1 /* CJSONDeserializer_BlocksExtensions.m */; };
-		485DEC7C1B96F38F008415B1 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBDA1B96F38E008415B1 /* CJSONSerialization.m */; };
-		485DEC7D1B96F38F008415B1 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBDC1B96F38E008415B1 /* CJSONSerializedData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC7E1B96F38F008415B1 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBDF1B96F38E008415B1 /* CDataScanner_Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC7F1B96F38F008415B1 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBE11B96F38E008415B1 /* NSDictionary_JSONExtensions.m */; };
-		485DEC801B96F38F008415B1 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBE41B96F38E008415B1 /* CJSONDeserializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC811B96F38F008415B1 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBE61B96F38E008415B1 /* CJSONScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC821B96F38F008415B1 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBE81B96F38E008415B1 /* CJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC831B96F38F008415B1 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBED1B96F38E008415B1 /* ioapi.c */; };
-		485DEC841B96F38F008415B1 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBEF1B96F38E008415B1 /* mztools.c */; };
-		485DEC851B96F38F008415B1 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBF11B96F38E008415B1 /* unzip.c */; };
-		485DEC861B96F38F008415B1 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBF31B96F38E008415B1 /* zip.c */; };
-		485DEC871B96F38F008415B1 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 485DEBF61B96F38E008415B1 /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485DEC881B96F38F008415B1 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485DEBF81B96F38E008415B1 /* GoogleMobileAds.framework */; };
-		485DEC891B96F38F008415B1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 485DEBFD1B96F38E008415B1 /* README.txt */; };
-		485DEC8A1B96F38F008415B1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 485DEBFE1B96F38E008415B1 /* README.txt */; };
 		485DEC8B1B96F38F008415B1 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEC011B96F38E008415B1 /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		485DEC8C1B96F38F008415B1 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEC031B96F38E008415B1 /* SimplePingHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		485DEC8D1B96F38F008415B1 /* RFRateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DEC061B96F38E008415B1 /* RFRateMe.m */; };
@@ -137,6 +113,11 @@
 		485DED121B9735C3008415B1 /* NetSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DED0F1B9735C3008415B1 /* NetSpeedViewController.m */; };
 		485DED161B973614008415B1 /* SpeedResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485DED131B973614008415B1 /* SpeedResultViewController.xib */; };
 		485DED171B973614008415B1 /* SpeedResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DED141B973614008415B1 /* SpeedResultViewController.m */; };
+		4876D8CA1C0D7E6B0047AA47 /* WifiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4876D8C81C0D7E6B0047AA47 /* WifiListViewController.m */; };
+		4876D8CB1C0D7E6B0047AA47 /* WifiListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4876D8C91C0D7E6B0047AA47 /* WifiListViewController.xib */; };
+		4876D8CF1C0D80BA0047AA47 /* WifiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4876D8CD1C0D80BA0047AA47 /* WifiTableViewCell.m */; };
+		4876D8D01C0D80BA0047AA47 /* WifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4876D8CE1C0D80BA0047AA47 /* WifiTableViewCell.xib */; };
+		4876D8D21C0D814A0047AA47 /* wifi_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4876D8D11C0D814A0047AA47 /* wifi_small.png */; };
 		488E53DD1B99C6C900ACC8B6 /* wangsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53D91B99C6C900ACC8B6 /* wangsu.png */; };
 		488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DA1B99C6C900ACC8B6 /* liuliang.png */; };
 		488E53DF1B99C6C900ACC8B6 /* huafei.png in Resources */ = {isa = PBXBuildFile; fileRef = 488E53DB1B99C6C900ACC8B6 /* huafei.png */; };
@@ -159,6 +140,12 @@
 		48E50B311B9AABF100F17A0A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2D1B9AABF100F17A0A /* 5.png */; };
 		48E50B321B9AABF100F17A0A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2E1B9AABF100F17A0A /* 6.png */; };
 		48E50B331B9AABF100F17A0A /* 6p.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E50B2F1B9AABF100F17A0A /* 6p.png */; };
+		48E514621C0402C9009CACDE /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E5144B1C0402C9009CACDE /* GoogleMobileAds.framework */; };
+		48E514631C0402C9009CACDE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48E514521C0402C9009CACDE /* README.txt */; };
+		48E514641C0402C9009CACDE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48E514531C0402C9009CACDE /* README.txt */; };
+		48E514651C0402C9009CACDE /* baidumobadsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48E5145B1C0402C9009CACDE /* baidumobadsdk.bundle */; };
+		48E514661C0402C9009CACDE /* libBaiduMobAdSdk64bit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E514611C0402C9009CACDE /* libBaiduMobAdSdk64bit.a */; };
+		48E514681C04044D009CACDE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E514671C04044D009CACDE /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,68 +188,6 @@
 		485DEBAD1B96F34E008415B1 /* CommInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommInfo.m; sourceTree = "<group>"; };
 		485DEBAE1B96F34E008415B1 /* CommInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommInfo.h; sourceTree = "<group>"; };
 		485DEBAF1B96F34E008415B1 /* CommData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommData.h; sourceTree = "<group>"; };
-		485DEBB61B96F38E008415B1 /* BaiduMobAdCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdCommonConfig.h; sourceTree = "<group>"; };
-		485DEBB71B96F38E008415B1 /* BaiduMobAdDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdDelegateProtocol.h; sourceTree = "<group>"; };
-		485DEBB81B96F38E008415B1 /* BaiduMobAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitial.h; sourceTree = "<group>"; };
-		485DEBB91B96F38E008415B1 /* BaiduMobAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitialDelegate.h; sourceTree = "<group>"; };
-		485DEBBA1B96F38E008415B1 /* baidumobadsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baidumobadsdk.bundle; sourceTree = "<group>"; };
-		485DEBBB1B96F38E008415B1 /* BaiduMobAdSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplash.h; sourceTree = "<group>"; };
-		485DEBBC1B96F38E008415B1 /* BaiduMobAdSplashDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplashDelegate.h; sourceTree = "<group>"; };
-		485DEBBD1B96F38E008415B1 /* BaiduMobAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdView.h; sourceTree = "<group>"; };
-		485DEBBF1B96F38E008415B1 /* BaiduMobAdCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdCommonConfig.h; sourceTree = "<group>"; };
-		485DEBC01B96F38E008415B1 /* BaiduMobAdDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdDelegateProtocol.h; sourceTree = "<group>"; };
-		485DEBC11B96F38E008415B1 /* BaiduMobAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitial.h; sourceTree = "<group>"; };
-		485DEBC21B96F38E008415B1 /* BaiduMobAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitialDelegate.h; sourceTree = "<group>"; };
-		485DEBC31B96F38E008415B1 /* BaiduMobAdRecommendDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdRecommendDelegateProtocol.h; sourceTree = "<group>"; };
-		485DEBC41B96F38E008415B1 /* BaiduMobAdRecommendIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdRecommendIcon.h; sourceTree = "<group>"; };
-		485DEBC51B96F38E008415B1 /* baidumobadsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baidumobadsdk.bundle; sourceTree = "<group>"; };
-		485DEBC61B96F38E008415B1 /* BaiduMobAdSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplash.h; sourceTree = "<group>"; };
-		485DEBC71B96F38E008415B1 /* BaiduMobAdSplashDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplashDelegate.h; sourceTree = "<group>"; };
-		485DEBC81B96F38E008415B1 /* BaiduMobAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdView.h; sourceTree = "<group>"; };
-		485DEBC91B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobAdSdk64bit.a; sourceTree = "<group>"; };
-		485DEBCA1B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobAdSdk64bit.a; sourceTree = "<group>"; };
-		485DEBCC1B96F38E008415B1 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongoose.c; sourceTree = "<group>"; };
-		485DEBCD1B96F38E008415B1 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongoose.h; sourceTree = "<group>"; };
-		485DEBCF1B96F38E008415B1 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
-		485DEBD01B96F38E008415B1 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
-		485DEBD21B96F38E008415B1 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
-		485DEBD31B96F38E008415B1 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
-		485DEBD51B96F38E008415B1 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
-		485DEBD61B96F38E008415B1 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
-		485DEBD71B96F38E008415B1 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
-		485DEBD81B96F38E008415B1 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
-		485DEBD91B96F38E008415B1 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
-		485DEBDA1B96F38E008415B1 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
-		485DEBDB1B96F38E008415B1 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
-		485DEBDC1B96F38E008415B1 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
-		485DEBDE1B96F38E008415B1 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
-		485DEBDF1B96F38E008415B1 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
-		485DEBE01B96F38E008415B1 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
-		485DEBE11B96F38E008415B1 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
-		485DEBE31B96F38E008415B1 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
-		485DEBE41B96F38E008415B1 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
-		485DEBE51B96F38E008415B1 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
-		485DEBE61B96F38E008415B1 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
-		485DEBE71B96F38E008415B1 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
-		485DEBE81B96F38E008415B1 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
-		485DEBE91B96F38E008415B1 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
-		485DEBEC1B96F38E008415B1 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		485DEBED1B96F38E008415B1 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		485DEBEE1B96F38E008415B1 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		485DEBEF1B96F38E008415B1 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		485DEBF01B96F38E008415B1 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		485DEBF11B96F38E008415B1 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		485DEBF21B96F38E008415B1 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		485DEBF31B96F38E008415B1 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		485DEBF41B96F38E008415B1 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		485DEBF51B96F38E008415B1 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
-		485DEBF61B96F38E008415B1 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
-		485DEBF81B96F38E008415B1 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		485DEBFA1B96F38E008415B1 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
-		485DEBFB1B96F38E008415B1 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
-		485DEBFC1B96F38E008415B1 /* GADMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
-		485DEBFD1B96F38E008415B1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		485DEBFE1B96F38E008415B1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		485DEC001B96F38E008415B1 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 		485DEC011B96F38E008415B1 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		485DEC021B96F38E008415B1 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
@@ -404,6 +329,13 @@
 		485DED131B973614008415B1 /* SpeedResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeedResultViewController.xib; sourceTree = "<group>"; };
 		485DED141B973614008415B1 /* SpeedResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedResultViewController.m; sourceTree = "<group>"; };
 		485DED151B973614008415B1 /* SpeedResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedResultViewController.h; sourceTree = "<group>"; };
+		4876D8C71C0D7E6B0047AA47 /* WifiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiListViewController.h; sourceTree = "<group>"; };
+		4876D8C81C0D7E6B0047AA47 /* WifiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiListViewController.m; sourceTree = "<group>"; };
+		4876D8C91C0D7E6B0047AA47 /* WifiListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiListViewController.xib; sourceTree = "<group>"; };
+		4876D8CC1C0D80BA0047AA47 /* WifiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiTableViewCell.h; sourceTree = "<group>"; };
+		4876D8CD1C0D80BA0047AA47 /* WifiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiTableViewCell.m; sourceTree = "<group>"; };
+		4876D8CE1C0D80BA0047AA47 /* WifiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiTableViewCell.xib; sourceTree = "<group>"; };
+		4876D8D11C0D814A0047AA47 /* wifi_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi_small.png; sourceTree = "<group>"; };
 		488E53D91B99C6C900ACC8B6 /* wangsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wangsu.png; sourceTree = "<group>"; };
 		488E53DA1B99C6C900ACC8B6 /* liuliang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liuliang.png; sourceTree = "<group>"; };
 		488E53DB1B99C6C900ACC8B6 /* huafei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huafei.png; sourceTree = "<group>"; };
@@ -429,6 +361,28 @@
 		48E50B2D1B9AABF100F17A0A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		48E50B2E1B9AABF100F17A0A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		48E50B2F1B9AABF100F17A0A /* 6p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6p.png; sourceTree = "<group>"; };
+		48E5144B1C0402C9009CACDE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		48E5144D1C0402C9009CACDE /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		48E5144E1C0402C9009CACDE /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		48E5144F1C0402C9009CACDE /* GADMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		48E514501C0402C9009CACDE /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		48E514511C0402C9009CACDE /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		48E514521C0402C9009CACDE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		48E514531C0402C9009CACDE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		48E514551C0402C9009CACDE /* BaiduMobAdCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdCommonConfig.h; sourceTree = "<group>"; };
+		48E514561C0402C9009CACDE /* BaiduMobAdDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdDelegateProtocol.h; sourceTree = "<group>"; };
+		48E514571C0402C9009CACDE /* BaiduMobAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitial.h; sourceTree = "<group>"; };
+		48E514581C0402C9009CACDE /* BaiduMobAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		48E514591C0402C9009CACDE /* BaiduMobAdRecommendDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdRecommendDelegateProtocol.h; sourceTree = "<group>"; };
+		48E5145A1C0402C9009CACDE /* BaiduMobAdRecommendIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdRecommendIcon.h; sourceTree = "<group>"; };
+		48E5145B1C0402C9009CACDE /* baidumobadsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baidumobadsdk.bundle; sourceTree = "<group>"; };
+		48E5145C1C0402C9009CACDE /* BaiduMobAdSplash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplash.h; sourceTree = "<group>"; };
+		48E5145D1C0402C9009CACDE /* BaiduMobAdSplashDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdSplashDelegate.h; sourceTree = "<group>"; };
+		48E5145E1C0402C9009CACDE /* BaiduMobAdVideoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdVideoDelegate.h; sourceTree = "<group>"; };
+		48E5145F1C0402C9009CACDE /* BaiduMobAdVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdVideoView.h; sourceTree = "<group>"; };
+		48E514601C0402C9009CACDE /* BaiduMobAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdView.h; sourceTree = "<group>"; };
+		48E514611C0402C9009CACDE /* libBaiduMobAdSdk64bit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobAdSdk64bit.a; sourceTree = "<group>"; };
+		48E514671C04044D009CACDE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +390,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E514681C04044D009CACDE /* WebKit.framework in Frameworks */,
+				48E514621C0402C9009CACDE /* GoogleMobileAds.framework in Frameworks */,
 				485DECF41B96F902008415B1 /* libz.dylib in Frameworks */,
 				485DECF21B96F8FE008415B1 /* libstdc++.dylib in Frameworks */,
 				485DECF01B96F8F7008415B1 /* CoreGraphics.framework in Frameworks */,
@@ -461,17 +417,15 @@
 				485DECC81B96F86F008415B1 /* MessageUI.framework in Frameworks */,
 				485DECC61B96F867008415B1 /* QuartzCore.framework in Frameworks */,
 				485DECC41B96F861008415B1 /* StoreKit.framework in Frameworks */,
+				48E514661C0402C9009CACDE /* libBaiduMobAdSdk64bit.a in Frameworks */,
 				485DECC21B96F85C008415B1 /* SystemConfiguration.framework in Frameworks */,
 				485DECC01B96F857008415B1 /* libz.1.2.5.dylib in Frameworks */,
 				485DECBE1B96F851008415B1 /* AddressBookUI.framework in Frameworks */,
 				485DECBC1B96F84D008415B1 /* AddressBook.framework in Frameworks */,
 				485DECBA1B96F846008415B1 /* CoreLocation.framework in Frameworks */,
-				485DEC751B96F38F008415B1 /* libBaiduMobAdSdk64bit.a in Frameworks */,
-				485DEC881B96F38F008415B1 /* GoogleMobileAds.framework in Frameworks */,
 				485DECB11B96F38F008415B1 /* libSocialSina.a in Frameworks */,
 				485DECA61B96F38F008415B1 /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				485DECB51B96F38F008415B1 /* libWeChatSDK.a in Frameworks */,
-				485DEC761B96F38F008415B1 /* libBaiduMobAdSdk64bit.a in Frameworks */,
 				485DECB41B96F38F008415B1 /* libSocialWechat.a in Frameworks */,
 				485DECA71B96F38F008415B1 /* libUMSocial_Sdk_Comment_4.2.3.a in Frameworks */,
 				485DECB31B96F38F008415B1 /* libUMSocial_Sdk_ScreenShot_1.0.a in Frameworks */,
@@ -492,6 +446,7 @@
 		485DEB621B96DCAF008415B1 = {
 			isa = PBXGroup;
 			children = (
+				48E514671C04044D009CACDE /* WebKit.framework */,
 				485DECF31B96F902008415B1 /* libz.dylib */,
 				485DECF11B96F8FE008415B1 /* libstdc++.dylib */,
 				485DECEF1B96F8F7008415B1 /* CoreGraphics.framework */,
@@ -586,6 +541,12 @@
 				488E53E61B9A787500ACC8B6 /* NewsViewController.h */,
 				488E53E71B9A787500ACC8B6 /* NewsViewController.m */,
 				488E53E81B9A787500ACC8B6 /* NewsViewController.xib */,
+				4876D8C71C0D7E6B0047AA47 /* WifiListViewController.h */,
+				4876D8C81C0D7E6B0047AA47 /* WifiListViewController.m */,
+				4876D8C91C0D7E6B0047AA47 /* WifiListViewController.xib */,
+				4876D8CC1C0D80BA0047AA47 /* WifiTableViewCell.h */,
+				4876D8CD1C0D80BA0047AA47 /* WifiTableViewCell.m */,
+				4876D8CE1C0D80BA0047AA47 /* WifiTableViewCell.xib */,
 			);
 			path = WifiSteward;
 			sourceTree = "<group>";
@@ -626,6 +587,7 @@
 				488E53EB1B9A792000ACC8B6 /* MainRightNav.png */,
 				488E53E41B9A74F200ACC8B6 /* NavBack.png */,
 				485DED0A1B973591008415B1 /* speed.png */,
+				4876D8D11C0D814A0047AA47 /* wifi_small.png */,
 				488E53D91B99C6C900ACC8B6 /* wangsu.png */,
 				488E53DA1B99C6C900ACC8B6 /* liuliang.png */,
 				488E53DB1B99C6C900ACC8B6 /* huafei.png */,
@@ -646,8 +608,8 @@
 		485DEBB11B96F38E008415B1 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
-				485DEBB51B96F38E008415B1 /* BaiDuAdv */,
-				485DEBF71B96F38E008415B1 /* GoogleMobileAdsSdkiOS-7.3.1 */,
+				48E5144A1C0402C9009CACDE /* GoogleMobileAdsSdkiOS-7.5.2 */,
+				48E514541C0402C9009CACDE /* BaiDuAdv */,
 				485DEBFF1B96F38E008415B1 /* PingHelper */,
 				485DEC041B96F38E008415B1 /* RFRateMe */,
 				485DEC091B96F38E008415B1 /* SVProgressHUD */,
@@ -659,162 +621,6 @@
 				485DEC6E1B96F38E008415B1 /* WaveView */,
 			);
 			path = 3rd;
-			sourceTree = "<group>";
-		};
-		485DEBB51B96F38E008415B1 /* BaiDuAdv */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBB61B96F38E008415B1 /* BaiduMobAdCommonConfig.h */,
-				485DEBB71B96F38E008415B1 /* BaiduMobAdDelegateProtocol.h */,
-				485DEBB81B96F38E008415B1 /* BaiduMobAdInterstitial.h */,
-				485DEBB91B96F38E008415B1 /* BaiduMobAdInterstitialDelegate.h */,
-				485DEBBA1B96F38E008415B1 /* baidumobadsdk.bundle */,
-				485DEBBB1B96F38E008415B1 /* BaiduMobAdSplash.h */,
-				485DEBBC1B96F38E008415B1 /* BaiduMobAdSplashDelegate.h */,
-				485DEBBD1B96F38E008415B1 /* BaiduMobAdView.h */,
-				485DEBBE1B96F38E008415B1 /* ios_api */,
-				485DEBCA1B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */,
-				485DEBCB1B96F38E008415B1 /* Mongoose */,
-				485DEBCE1B96F38E008415B1 /* OpenUDID */,
-				485DEBD11B96F38E008415B1 /* TouchJSON */,
-				485DEBEA1B96F38E008415B1 /* ZipArchive */,
-			);
-			path = BaiDuAdv;
-			sourceTree = "<group>";
-		};
-		485DEBBE1B96F38E008415B1 /* ios_api */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBBF1B96F38E008415B1 /* BaiduMobAdCommonConfig.h */,
-				485DEBC01B96F38E008415B1 /* BaiduMobAdDelegateProtocol.h */,
-				485DEBC11B96F38E008415B1 /* BaiduMobAdInterstitial.h */,
-				485DEBC21B96F38E008415B1 /* BaiduMobAdInterstitialDelegate.h */,
-				485DEBC31B96F38E008415B1 /* BaiduMobAdRecommendDelegateProtocol.h */,
-				485DEBC41B96F38E008415B1 /* BaiduMobAdRecommendIcon.h */,
-				485DEBC51B96F38E008415B1 /* baidumobadsdk.bundle */,
-				485DEBC61B96F38E008415B1 /* BaiduMobAdSplash.h */,
-				485DEBC71B96F38E008415B1 /* BaiduMobAdSplashDelegate.h */,
-				485DEBC81B96F38E008415B1 /* BaiduMobAdView.h */,
-				485DEBC91B96F38E008415B1 /* libBaiduMobAdSdk64bit.a */,
-			);
-			path = ios_api;
-			sourceTree = "<group>";
-		};
-		485DEBCB1B96F38E008415B1 /* Mongoose */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBCC1B96F38E008415B1 /* mongoose.c */,
-				485DEBCD1B96F38E008415B1 /* mongoose.h */,
-			);
-			path = Mongoose;
-			sourceTree = "<group>";
-		};
-		485DEBCE1B96F38E008415B1 /* OpenUDID */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBCF1B96F38E008415B1 /* OpenUDID.h */,
-				485DEBD01B96F38E008415B1 /* OpenUDID.m */,
-			);
-			path = OpenUDID;
-			sourceTree = "<group>";
-		};
-		485DEBD11B96F38E008415B1 /* TouchJSON */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBD21B96F38E008415B1 /* CDataScanner.h */,
-				485DEBD31B96F38E008415B1 /* CDataScanner.m */,
-				485DEBD41B96F38E008415B1 /* Experimental */,
-				485DEBDD1B96F38E008415B1 /* Extensions */,
-				485DEBE21B96F38E008415B1 /* JSON */,
-			);
-			path = TouchJSON;
-			sourceTree = "<group>";
-		};
-		485DEBD41B96F38E008415B1 /* Experimental */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBD51B96F38E008415B1 /* CFilteringJSONSerializer.h */,
-				485DEBD61B96F38E008415B1 /* CFilteringJSONSerializer.m */,
-				485DEBD71B96F38E008415B1 /* CJSONDeserializer_BlocksExtensions.h */,
-				485DEBD81B96F38E008415B1 /* CJSONDeserializer_BlocksExtensions.m */,
-				485DEBD91B96F38E008415B1 /* CJSONSerialization.h */,
-				485DEBDA1B96F38E008415B1 /* CJSONSerialization.m */,
-				485DEBDB1B96F38E008415B1 /* CJSONSerializedData.h */,
-				485DEBDC1B96F38E008415B1 /* CJSONSerializedData.m */,
-			);
-			path = Experimental;
-			sourceTree = "<group>";
-		};
-		485DEBDD1B96F38E008415B1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBDE1B96F38E008415B1 /* CDataScanner_Extensions.h */,
-				485DEBDF1B96F38E008415B1 /* CDataScanner_Extensions.m */,
-				485DEBE01B96F38E008415B1 /* NSDictionary_JSONExtensions.h */,
-				485DEBE11B96F38E008415B1 /* NSDictionary_JSONExtensions.m */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		485DEBE21B96F38E008415B1 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBE31B96F38E008415B1 /* CJSONDeserializer.h */,
-				485DEBE41B96F38E008415B1 /* CJSONDeserializer.m */,
-				485DEBE51B96F38E008415B1 /* CJSONScanner.h */,
-				485DEBE61B96F38E008415B1 /* CJSONScanner.m */,
-				485DEBE71B96F38E008415B1 /* CJSONSerializer.h */,
-				485DEBE81B96F38E008415B1 /* CJSONSerializer.m */,
-				485DEBE91B96F38E008415B1 /* JSONRepresentation.h */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		485DEBEA1B96F38E008415B1 /* ZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBEB1B96F38E008415B1 /* minizip */,
-				485DEBF51B96F38E008415B1 /* ZipArchive.h */,
-				485DEBF61B96F38E008415B1 /* ZipArchive.mm */,
-			);
-			path = ZipArchive;
-			sourceTree = "<group>";
-		};
-		485DEBEB1B96F38E008415B1 /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBEC1B96F38E008415B1 /* crypt.h */,
-				485DEBED1B96F38E008415B1 /* ioapi.c */,
-				485DEBEE1B96F38E008415B1 /* ioapi.h */,
-				485DEBEF1B96F38E008415B1 /* mztools.c */,
-				485DEBF01B96F38E008415B1 /* mztools.h */,
-				485DEBF11B96F38E008415B1 /* unzip.c */,
-				485DEBF21B96F38E008415B1 /* unzip.h */,
-				485DEBF31B96F38E008415B1 /* zip.c */,
-				485DEBF41B96F38E008415B1 /* zip.h */,
-			);
-			path = minizip;
-			sourceTree = "<group>";
-		};
-		485DEBF71B96F38E008415B1 /* GoogleMobileAdsSdkiOS-7.3.1 */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBF81B96F38E008415B1 /* GoogleMobileAds.framework */,
-				485DEBF91B96F38E008415B1 /* Mediation Adapters */,
-				485DEBFE1B96F38E008415B1 /* README.txt */,
-			);
-			path = "GoogleMobileAdsSdkiOS-7.3.1";
-			sourceTree = "<group>";
-		};
-		485DEBF91B96F38E008415B1 /* Mediation Adapters */ = {
-			isa = PBXGroup;
-			children = (
-				485DEBFA1B96F38E008415B1 /* GADMAdNetworkAdapterProtocol.h */,
-				485DEBFB1B96F38E008415B1 /* GADMAdNetworkConnectorProtocol.h */,
-				485DEBFC1B96F38E008415B1 /* GADMEnums.h */,
-				485DEBFD1B96F38E008415B1 /* README.txt */,
-			);
-			path = "Mediation Adapters";
 			sourceTree = "<group>";
 		};
 		485DEBFF1B96F38E008415B1 /* PingHelper */ = {
@@ -1127,6 +933,49 @@
 			path = launch;
 			sourceTree = "<group>";
 		};
+		48E5144A1C0402C9009CACDE /* GoogleMobileAdsSdkiOS-7.5.2 */ = {
+			isa = PBXGroup;
+			children = (
+				48E5144B1C0402C9009CACDE /* GoogleMobileAds.framework */,
+				48E5144C1C0402C9009CACDE /* Mediation Adapters */,
+				48E514531C0402C9009CACDE /* README.txt */,
+			);
+			path = "GoogleMobileAdsSdkiOS-7.5.2";
+			sourceTree = "<group>";
+		};
+		48E5144C1C0402C9009CACDE /* Mediation Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				48E5144D1C0402C9009CACDE /* GADMAdNetworkAdapterProtocol.h */,
+				48E5144E1C0402C9009CACDE /* GADMAdNetworkConnectorProtocol.h */,
+				48E5144F1C0402C9009CACDE /* GADMEnums.h */,
+				48E514501C0402C9009CACDE /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				48E514511C0402C9009CACDE /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				48E514521C0402C9009CACDE /* README.txt */,
+			);
+			path = "Mediation Adapters";
+			sourceTree = "<group>";
+		};
+		48E514541C0402C9009CACDE /* BaiDuAdv */ = {
+			isa = PBXGroup;
+			children = (
+				48E514551C0402C9009CACDE /* BaiduMobAdCommonConfig.h */,
+				48E514561C0402C9009CACDE /* BaiduMobAdDelegateProtocol.h */,
+				48E514571C0402C9009CACDE /* BaiduMobAdInterstitial.h */,
+				48E514581C0402C9009CACDE /* BaiduMobAdInterstitialDelegate.h */,
+				48E514591C0402C9009CACDE /* BaiduMobAdRecommendDelegateProtocol.h */,
+				48E5145A1C0402C9009CACDE /* BaiduMobAdRecommendIcon.h */,
+				48E5145B1C0402C9009CACDE /* baidumobadsdk.bundle */,
+				48E5145C1C0402C9009CACDE /* BaiduMobAdSplash.h */,
+				48E5145D1C0402C9009CACDE /* BaiduMobAdSplashDelegate.h */,
+				48E5145E1C0402C9009CACDE /* BaiduMobAdVideoDelegate.h */,
+				48E5145F1C0402C9009CACDE /* BaiduMobAdVideoView.h */,
+				48E514601C0402C9009CACDE /* BaiduMobAdView.h */,
+				48E514611C0402C9009CACDE /* libBaiduMobAdSdk64bit.a */,
+			);
+			path = BaiDuAdv;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1209,6 +1058,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E514631C0402C9009CACDE /* README.txt in Resources */,
 				488E54001B9A8D9F00ACC8B6 /* 87.png in Resources */,
 				485DECAF1B96F38F008415B1 /* UMSShareListController.xib in Resources */,
 				488E53DE1B99C6C900ACC8B6 /* liuliang.png in Resources */,
@@ -1218,16 +1068,17 @@
 				485DECAE1B96F38F008415B1 /* UMSnsAccountViewController.xib in Resources */,
 				48E50B331B9AABF100F17A0A /* 6p.png in Resources */,
 				485DECAD1B96F38F008415B1 /* UMSLoginViewController.xib in Resources */,
+				48E514641C0402C9009CACDE /* README.txt in Resources */,
 				485DEB7A1B96DCAF008415B1 /* Main.storyboard in Resources */,
 				485DECA91B96F38F008415B1 /* UMSCommentInputController.xib in Resources */,
+				4876D8CB1C0D7E6B0047AA47 /* WifiListViewController.xib in Resources */,
+				48E514651C0402C9009CACDE /* baidumobadsdk.bundle in Resources */,
 				485DED081B97350C008415B1 /* SignViewController.xib in Resources */,
 				488E53EA1B9A787500ACC8B6 /* NewsViewController.xib in Resources */,
 				488E53EE1B9A7B0700ACC8B6 /* back.png in Resources */,
 				488E53FF1B9A8D9F00ACC8B6 /* 80.png in Resources */,
 				485DEB9B1B96E14F008415B1 /* wifi.png in Resources */,
 				485DED021B9734AB008415B1 /* cleanNet.png in Resources */,
-				485DEC731B96F38F008415B1 /* baidumobadsdk.bundle in Resources */,
-				485DEC891B96F38F008415B1 /* README.txt in Resources */,
 				488E53DD1B99C6C900ACC8B6 /* wangsu.png in Resources */,
 				485DEB7F1B96DCAF008415B1 /* LaunchScreen.xib in Resources */,
 				485DEBA91B96F313008415B1 /* NetSpyViewController.xib in Resources */,
@@ -1239,7 +1090,7 @@
 				485DED011B9734AB008415B1 /* cleanStorage.png in Resources */,
 				488E53EC1B9A792000ACC8B6 /* MainRightNav.png in Resources */,
 				488E53F31B9A7C5500ACC8B6 /* laugh.png in Resources */,
-				485DEC741B96F38F008415B1 /* baidumobadsdk.bundle in Resources */,
+				4876D8D21C0D814A0047AA47 /* wifi_small.png in Resources */,
 				485DED0D1B973591008415B1 /* signTip@2x.png in Resources */,
 				485DEC921B96F38F008415B1 /* System Services in Resources */,
 				485DED111B9735C3008415B1 /* NetSpeedViewController.xib in Resources */,
@@ -1262,8 +1113,8 @@
 				485DEB981B96DD7F008415B1 /* MainViewController.xib in Resources */,
 				485DEBA01B96E693008415B1 /* health.png in Resources */,
 				488E53FC1B9A8D9F00ACC8B6 /* 120.png in Resources */,
-				485DEC8A1B96F38F008415B1 /* README.txt in Resources */,
 				48E50B301B9AABF100F17A0A /* 4.png in Resources */,
+				4876D8D01C0D80BA0047AA47 /* WifiTableViewCell.xib in Resources */,
 				485DEB9F1B96E693008415B1 /* wifi_spy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1282,30 +1133,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485DEC801B96F38F008415B1 /* CJSONDeserializer.m in Sources */,
 				485DED091B97350C008415B1 /* SignViewController.m in Sources */,
 				485DEB771B96DCAF008415B1 /* ViewController.m in Sources */,
 				485DEC931B96F38F008415B1 /* SystemServices.m in Sources */,
+				4876D8CA1C0D7E6B0047AA47 /* WifiListViewController.m in Sources */,
 				485DEB741B96DCAF008415B1 /* AppDelegate.m in Sources */,
 				488E53E31B9A737600ACC8B6 /* BaseViewController.m in Sources */,
 				488E53F11B9A7BEC00ACC8B6 /* LaughViewController.m in Sources */,
 				485DEC9B1B96F38F008415B1 /* SSHardwareInfo.m in Sources */,
 				485DECF71B972F2F008415B1 /* UIScrollView+UITouch.m in Sources */,
 				485DEC961B96F38F008415B1 /* SSAccessoryInfo.m in Sources */,
-				485DEC771B96F38F008415B1 /* mongoose.c in Sources */,
-				485DEC811B96F38F008415B1 /* CJSONScanner.m in Sources */,
-				485DEC781B96F38F008415B1 /* OpenUDID.m in Sources */,
-				485DEC7A1B96F38F008415B1 /* CFilteringJSONSerializer.m in Sources */,
-				485DEC7D1B96F38F008415B1 /* CJSONSerializedData.m in Sources */,
 				485DEC9D1B96F38F008415B1 /* SSLocalizationInfo.m in Sources */,
-				485DEC791B96F38F008415B1 /* CDataScanner.m in Sources */,
-				485DEC7C1B96F38F008415B1 /* CJSONSerialization.m in Sources */,
-				485DEC871B96F38F008415B1 /* ZipArchive.mm in Sources */,
 				485DED171B973614008415B1 /* SpeedResultViewController.m in Sources */,
-				485DEC7F1B96F38F008415B1 /* NSDictionary_JSONExtensions.m in Sources */,
 				485DEC8F1B96F38F008415B1 /* SVIndefiniteAnimatedView.m in Sources */,
-				485DEC841B96F38F008415B1 /* mztools.c in Sources */,
-				485DEC851B96F38F008415B1 /* unzip.c in Sources */,
 				485DECA01B96F38F008415B1 /* SSProcessInfo.m in Sources */,
 				485DECA21B96F38F008415B1 /* SSUUID.m in Sources */,
 				485DEBAA1B96F313008415B1 /* NetSpyViewController.m in Sources */,
@@ -1317,14 +1157,13 @@
 				485DEC9C1B96F38F008415B1 /* SSJailbreakCheck.m in Sources */,
 				485DEC911B96F38F008415B1 /* SVProgressHUD.m in Sources */,
 				488E53E91B9A787500ACC8B6 /* NewsViewController.m in Sources */,
+				4876D8CF1C0D80BA0047AA47 /* WifiTableViewCell.m in Sources */,
 				485DEC9A1B96F38F008415B1 /* SSDiskInfo.m in Sources */,
 				485DEC9E1B96F38F008415B1 /* SSMemoryInfo.m in Sources */,
 				485DEB711B96DCAF008415B1 /* main.m in Sources */,
-				485DEC7B1B96F38F008415B1 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
 				485DEC981B96F38F008415B1 /* SSBatteryInfo.m in Sources */,
 				485DEC8C1B96F38F008415B1 /* SimplePingHelper.m in Sources */,
 				485DEC8D1B96F38F008415B1 /* RFRateMe.m in Sources */,
-				485DEC831B96F38F008415B1 /* ioapi.c in Sources */,
 				485DEC8B1B96F38F008415B1 /* SimplePing.m in Sources */,
 				485DEC971B96F38F008415B1 /* SSApplicationInfo.m in Sources */,
 				485DEC9F1B96F38F008415B1 /* SSNetworkInfo.m in Sources */,
@@ -1332,11 +1171,8 @@
 				485DECA11B96F38F008415B1 /* SSProcessorInfo.m in Sources */,
 				485DEBAC1B96F313008415B1 /* NetSpyTableViewCell.m in Sources */,
 				485DEC951B96F38F008415B1 /* SSAccelerometerInfo.m in Sources */,
-				485DEC861B96F38F008415B1 /* zip.c in Sources */,
 				485DEBB01B96F34E008415B1 /* CommInfo.m in Sources */,
-				485DEC821B96F38F008415B1 /* CJSONSerializer.m in Sources */,
 				485DEB971B96DD7F008415B1 /* MainViewController.m in Sources */,
-				485DEC7E1B96F38F008415B1 /* CDataScanner_Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1407,6 +1243,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1451,6 +1288,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: chaoxiao zhuang (398SEH57CU)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1474,10 +1312,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WifiSteward/3rd/adwoSDKLib",
 					"$(PROJECT_DIR)/WifiSteward/3rd/GoogleMobileAdsSdkiOS-7.3.1",
+					"$(PROJECT_DIR)/WifiSteward/3rd/GoogleMobileAdsSdkiOS-7.5.2",
 				);
 				INFOPLIST_FILE = WifiSteward/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1506,10 +1346,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WifiSteward/3rd/adwoSDKLib",
 					"$(PROJECT_DIR)/WifiSteward/3rd/GoogleMobileAdsSdkiOS-7.3.1",
+					"$(PROJECT_DIR)/WifiSteward/3rd/GoogleMobileAdsSdkiOS-7.5.2",
 				);
 				INFOPLIST_FILE = WifiSteward/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

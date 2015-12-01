@@ -8,6 +8,7 @@
 
 #import "LaughViewController.h"
 #import "BaiduMobAdView.h"
+#import "CommData.h"
 
 @import GoogleMobileAds;
 
@@ -140,17 +141,18 @@
     
     //
     {
-        
         CGRect rect = [[UIScreen mainScreen]bounds];
         CGPoint pt = CGPointMake(0, rect.origin.y+rect.size.height-kBaiduAdViewBanner468x60.height-1);
         
         BaiduMobAdView * _baiduView = [[BaiduMobAdView alloc]init];
+        //把在mssp.baidu.com上创建后获得的广告位id写到这里
+        _baiduView.AdUnitTag = BAIDU_BANNER_ID;
         _baiduView.AdType = BaiduMobAdViewTypeBanner;
         _baiduView.frame = CGRectMake(0, pt.y, kBaiduAdViewBanner468x60.width, kBaiduAdViewBanner468x60.height);
-        
         _baiduView.delegate = self;
         [self.view addSubview:_baiduView];
         [_baiduView start];
+
     }
 }
 
@@ -174,19 +176,8 @@
 
 - (NSString *)publisherId
 {
-    return @"d9348313";
+    return  BAIDU_APP_ID;
 }
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"d9348313";
-}
-
-
-
 
 
 - (void)didReceiveMemoryWarning {

@@ -8,12 +8,40 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "BaiduMobAdSplashDelegate.h"
+#import "BaiduMobAdSplash.h"
+#import "CommData.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate ()<BaiduMobAdSplashDelegate>
+{
+    BaiduMobAdSplash *splash;
+}
 @end
 
 @implementation AppDelegate
+
+
+-(void)showADV
+{
+    splash = [[BaiduMobAdSplash alloc] init];
+    splash.delegate = self;
+    splash.AdUnitTag = BAIDU_SPLASH_ID;
+    splash.canSplashClick = YES;
+    [splash loadAndDisplayUsingKeyWindow:self.window];
+}
+
+- (NSString *)publisherId
+{
+    return BAIDU_APP_ID;
+}
+
+/**
+ *  广告展示成功
+ */
+- (void)splashSuccessPresentScreen:(BaiduMobAdSplash *)splash
+{
+    NSLog(@"splashSuccessPresentScreen");
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -24,6 +52,11 @@
     MainViewController * vc = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    //
+    
+    [self showADV];
+    
+    //
     
     [self.window makeKeyAndVisible];
     return YES;

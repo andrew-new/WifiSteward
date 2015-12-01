@@ -14,10 +14,9 @@
 
 @required
 /**
- *  应用在union.baidu.com上的APPID
+ *  应用的APPID
  */
 - (NSString *)publisherId;
-
 
 @optional
 /**
@@ -35,6 +34,11 @@
  *  广告展示失败
  */
 - (void)splashlFailPresentScreen:(BaiduMobAdSplash *)splash withError:(BaiduMobFailReason) reason;
+
+/**
+ *  广告被点击
+ */
+- (void)splashDidClicked:(BaiduMobAdSplash *)splash;
 
 /**
  *  广告展示结束

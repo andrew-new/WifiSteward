@@ -72,8 +72,6 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-
-
 -(void)preLoadAdv
 {
     adInterstitial = [[BaiduMobAdInterstitial alloc] init];
@@ -100,17 +98,10 @@
     _adloaded = NO;
 }
 
+//
 - (NSString *)publisherId
 {
-    return @"fece40ae";
-}
-
-/**
- *  应用在union.baidu.com上的APPID
- */
-- (NSString*) appSpec
-{
-    return @"fece40ae";
+    return  BAIDU_APP_ID;
 }
 
 
@@ -125,7 +116,6 @@
 
 -(void)initCountLab
 {
-    
     cleanCount = 0;
     
     if( [self getCleanFlag:STORE_NET_CLEAN_DATE withKeep:NET_CLEAN_KEEP] )

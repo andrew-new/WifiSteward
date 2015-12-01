@@ -5,7 +5,7 @@
 //  Created by jaygao on 11-9-6.
 //  Copyright 2011年 Baidu. All rights reserved.
 //
-//  Baidu Mobads SDK Version 3.0
+//  Baidu Mobads SDK Version 3.1
 //
 
 #import <UIKit/UIKit.h>
@@ -22,29 +22,23 @@
 #define kBaiduAdViewSquareBanner600x500 CGSizeMake(600, 500)
 
 /**
- *  投放广告的视图接口,更多信息请查看[百度移动联盟主页](http://munion.baidu.com)
+ *  投放广告的视图接口,更多信息请查看[百度移动联盟主页](http://mssp.baidu.com)
  */
 /**
  *  广告类型
  * 0 banner广告
- * 2 前贴片 BaiduMobAdViewTypeVABeforeVideo
- * 3 暂停视图 BaiduMobAdViewTypeVAPause
- * 4 切换视图 BaiduMobAdViewTypeVASwitchView
  */
 typedef enum _BaiduMobAdViewType {
-    BaiduMobAdViewTypeBanner = 0,
-    BaiduMobAdViewTypeVABeforeVideo = 2,
-    BaiduMobAdViewTypeVAPause = 3,
-    BaiduMobAdViewTypeVASwitchView = 4,
+    BaiduMobAdViewTypeBanner = 0
 } BaiduMobAdViewType;
 
 @interface BaiduMobAdView : UIView {
     @private
     id<BaiduMobAdViewDelegate> delegate_;
     
-    UIColor* textColor_;
-    UIColor* backgroundColor_;
-    CGFloat alpha_;
+    UIColor* textColor_ DEPRECATED_ATTRIBUTE;
+    UIColor* backgroundColor_ DEPRECATED_ATTRIBUTE;
+    CGFloat alpha_ DEPRECATED_ATTRIBUTE;
     BaiduMobAdViewType adType_;
     NSString* aduTag;
 }
@@ -61,7 +55,7 @@ typedef enum _BaiduMobAdViewType {
 /**
  *  设置／获取当前广告（文字）的文本颜色
  */
-@property (nonatomic, retain) UIColor* textColor;
+@property (nonatomic, retain) UIColor* textColor DEPRECATED_ATTRIBUTE;
 
 /**
  *  设置／获取需要展示的广告类型
@@ -69,28 +63,19 @@ typedef enum _BaiduMobAdViewType {
 @property (nonatomic) BaiduMobAdViewType AdType;
 
 /**
- *  设置/获取广告位id
+ *  设置/获取代码位id
  */
 @property (nonatomic,copy) NSString* AdUnitTag;
-
 
 /**
  *  SDK版本
  */
 @property (nonatomic, readonly) NSString* Version;
 
-
 /**
  *  开始广告展示请求,会触发所有资源的重新加载，推荐初始化以后调用一次
  */
 - (void) start;
-
-/**
- *  关闭视频广告的方法，如果用户可以点击回退进入上一界面，
- *  请在dealloc方法中调用该方法，以防止广告不被计费
- */
-- (void) close;
-
 
 @end
 
